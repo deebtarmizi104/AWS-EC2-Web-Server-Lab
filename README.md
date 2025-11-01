@@ -1,6 +1,6 @@
 # 🌐 AWS EC2 Web Server Testing
 
-This repository contains my work for the **WQD7008 – Parallel and Distributed Computing** course under the **Master of Data Science (MDS) program at the University of Malaya**.  
+This repository contains my work for the **Parallel and Distributed Computing** course for **Master of Data Science (MDS)**.  
 It demonstrates how to deploy a **static HTML webpage** (a personal CV-style page) on an **AWS EC2 instance** using the **Apache2 web server**.
 
 The project highlights essential cloud-based deployment concepts from the Parallel and Distributed Computing syllabus, focusing on distributed resource utilization and server configuration.
@@ -197,18 +197,12 @@ GitHub will provide a link such as
 
 ## 👩‍💻 Author
 
-**Name:** Wan Nurul Adibah  
-**Programme:** Master of Data Science (MDS)  
-**Course:** WQD7008 – Parallel and Distributed Computing  
-**Institution:** University of Malaya  
-**Email:** [nuruldeeb99@gmail.com](mailto:nuruldeeb99@gmail.com)  
-**GitHub:** [deebtarmizi104](https://github.com/deebtarmizi104)
+Wan Nurul Adibah  
 
 ---
 
 ## 📜 License
 
-This repository was created for **academic and learning purposes** under the University of Malaya MDS programme.  
-You may reuse or adapt this material for educational or demonstration use with proper attribution.
+This repository was created for **academic and self-learning purposes**.
 
 ---
