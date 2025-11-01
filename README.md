@@ -13,7 +13,6 @@ The project highlights essential cloud-based deployment concepts from the Parall
 - Install and manage the **Apache2 web server**.  
 - Replace the default Apache page with a **custom HTML/CSS webpage**.  
 - Understand the basics of **distributed web hosting** and **remote access**.  
-- Integrate **GitHub** and **VS Code** for continuous deployment and version control.
 
 ---
 
