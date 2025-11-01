@@ -23,7 +23,6 @@ This project showcases:
 - Use of **Font Awesome icons** for design enhancement.  
 - Deployment and testing of a custom webpage on an **AWS EC2 public IP**.  
 - Hands-on configuration of the Apache2 service and Linux file management.  
-- A reproducible development-to-deployment workflow using **VS Code → GitHub → EC2**.
 
 ---
 
