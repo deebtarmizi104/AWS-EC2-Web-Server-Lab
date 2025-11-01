@@ -1,4 +1,4 @@
-# 🌐 AWS EC2 Web Server Testing
+# 🌐 AWS EC2 Web Server Lab
 
 This repository contains my work for the **Parallel and Distributed Computing** course for **Master of Data Science (MDS)**.  
 It demonstrates how to deploy a **static HTML webpage** (a personal CV-style page) on an **AWS EC2 instance** using the **Apache2 web server**.
