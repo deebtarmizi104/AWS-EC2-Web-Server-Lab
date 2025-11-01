@@ -154,20 +154,6 @@ http://<your-public-ip>
 
 ---
 
-## 🧩 Example HTML Features
-
-- **Header Section:** Name, contact details, and GitHub link.  
-- **Accordion Sections:**  
-  - 💼 Experience  
-  - 🎓 Education  
-  - 🏅 Certifications  
-  - 💻 Technical Skills  
-  - 💬 Soft Skills  
-- **Color Scheme:** Dark background with light text for readability.  
-- **Responsive Design:** Works on desktop and mobile browsers.
-
----
-
 ## 🧠 Reflection / Learning Outcomes
 
 Through this project, I learned to:
@@ -196,7 +182,7 @@ GitHub will provide a link such as
 
 ## 👩‍💻 Author
 
-Wan Nurul Adibah  
+deebtarmizi104
 
 ---
 
