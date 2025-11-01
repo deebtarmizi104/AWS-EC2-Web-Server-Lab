@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Wan Nurul Adibah – CV</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    :root {
+      --primary: #2563eb;
+      --bg: #f3f4f6;
+      --white: #fff;
+      --dark: #1f2937;
+      --muted: #6b7280;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: "Segoe UI", sans-serif;
+    }
+
+    body {
+      background: var(--bg);
+      display: flex;
+      justify-content: center;
+      padding: 24px;
+    }
+
+    .cv {
+      max-width: 900px;
+      width: 100%;
+      background: var(--white);
+      border-radius: 16px;
+      box-shadow: 0 20px 40px rgba(15,23,42,0.12);
+      overflow: hidden;
+    }
+
+    /* Header */
+    header {
+      background: linear-gradient(90deg, #1f2937, #0f172a);
+      color: #fff;
+      padding: 28px 32px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    .profile-info {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+    }
+
+    .avatar {
+      width: 80px;
+      height: 80px;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.1);
+      border: 2px solid rgba(255,255,255,0.3);
+      display: grid;
+      place-items: center;
+      font-size: 34px;
+      font-weight: 700;
+    }
+
+    .profile-text .name {
+      font-size: 1.3rem;
+      font-weight: 700;
+    }
+
+    .profile-text .role {
+      font-size: .8rem;
+      color: rgba(255,255,255,0.6);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-top: 2px;
+    }
+
+    .contact {
+      text-align: right;
+      font-size: .8rem;
+      line-height: 1.4;
+      color: rgba(255,255,255,0.8);
+    }
+
+    /* Summary */
+    .summary {
+      background: #e0ebff;
+      border-left: 4px solid var(--primary);
+      padding: 16px 20px;
+      font-size: .85rem;
+      color: var(--dark);
+      line-height: 1.6;
+    }
+
+    /* Accordion */
+    main {
+      padding: 28px 34px 40px;
+    }
+
+    .accordion-item {
+      border: 1px solid #e5e7eb;
+      border-radius: 12px;
+      margin-bottom: 14px;
+      overflow: hidden;
+      background: #fff;
+    }
+
+    .accordion-header {
+      width: 100%;
+      padding: 14px 18px;
+      background: linear-gradient(90deg, #1e40af, #1e3a8a);
+      border: none;
+      outline: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-weight: 600;
+      font-size: .95rem;
+      color: #f8fafc;
+      cursor: pointer;
+    }
+
+    .accordion-chevron {
+      transition: transform .2s ease;
+      font-size: 1rem;
+      color: #ffffff;
+    }
+
+    .accordion-body {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height .25s ease;
+    }
+
+    .accordion-body-inner {
+      padding: 14px 18px 20px;
+      font-size: .82rem;
+      line-height: 1.6;
+      color: #374151;
+    }
+
+    .accordion-item.active .accordion-body {
+      max-height: 900px;
+    }
+
+    .accordion-item.active .accordion-header {
+      background: #B5C7EB;
+      color: var(--primary);
+    }
+
+    .accordion-item.active .accordion-chevron {
+      transform: rotate(90deg);
+      color: var(--primary);
+    }
+
+    /* Experience Section */
+    .exp-block { margin-bottom: 18px; }
+
+    .exp-title { font-weight: 600; color: var(--dark); }
+
+    .exp-meta { font-size: .75rem; color: var(--muted); margin-bottom: 6px; }
+
+    .exp-list {
+      margin: 8px 0 10px 20px;
+      padding: 0;
+      line-height: 1.6;
+      color: #374151;
+      font-size: 0.82rem;
+    }
+
+    .exp-list li {
+      margin-bottom: 6px;
+    }
+
+    .tag-row {
+      margin-top: 6px;
+    }
+
+    .tag {
+      display: inline-block;
+      background: rgba(37,99,235,0.1);
+      color: var(--primary);
+      border-radius: 999px;
+      font-size: .65rem;
+      padding: 2px 8px;
+      margin-right: 4px;
+      margin-top: 4px;
+    }
+
+    footer {
+      text-align: center;
+      font-size: .7rem;
+      color: var(--muted);
+      padding: 14px;
+      background: #f9fafb;
+      border-top: 1px solid #e5e7eb;
+    }
+
+    @media (max-width: 700px) {
+      header {
+        flex-direction: column;
+        text-align: center;
+      }
+      .contact { text-align: center; }
+    }
+  </style>
+</head>
+<body>
+  <div class="cv">
+    <header>
+      <div class="profile-info">
+        <div class="avatar">WN</div>
+        <div class="profile-text">
+          <div class="name">Wan Nurul Adibah</div>
+          <div class="role">Data / Cloud Learner</div>
+        </div>
+      </div>
+      <div class="contact">
+        📧 wnadibahwt@gmail.com<br />
+        📞 +601119991041<br />
+        📍 Kuala Lumpur, Malaysia<br />
+        🌐 linkedin.com/in/wan-nurul-adibah/
+      </div>
+    </header>
+
+    <div class="summary">
+      Experienced data analyst specializing in ETL workflows, reporting automation, and interactive dashboards. Skilled in Python, R, Spark, and Databricks for scalable analytics and machine learning. Focused on delivering data-driven insights and pursuing a Master of Data Science to enhance advanced analytics expertise.
+    </div>
+
+    <main>
+
+      <!-- Experience -->
+      <div class="accordion-item active">
+        <button class="accordion-header">
+          💼 Experience
+          <span class="accordion-chevron">▶</span>
+        </button>
+        <div class="accordion-body">
+          <div class="accordion-body-inner">
+            
+            <!-- Job 1 -->
+            <div class="exp-block">
+              <div class="exp-title">MIS Analyst</div>
+              <div class="exp-meta">Capillary Technologies Sdn. Bhd. · Apr 2025 – Present</div>
+              <ul class="exp-list">
+                <li>Produce comprehensive MIS reports, interactive dashboards, and analytics to support strategic business planning.</li>
+                <li>Utilize Databricks for data ingestion, transformation, and optimization to improve data accessibility and performance.</li>
+                <li>Develop and maintain complex SQL queries to extract, validate, and aggregate business-critical information.</li>
+                <li>Design and deploy Tableau dashboards on customer behavior, sales performance, marketing impact, and inventory flow.</li>
+                <li>Collaborate with cross-functional teams to ensure consistency, governance, and accuracy of data pipelines.</li>
+                <li>Continuously enhance automation and visualization standards to improve management decision support.</li>
+              </ul>
+              <div class="tag-row">
+                <span class="tag">Tableau</span>
+                <span class="tag">SQL</span>
+                <span class="tag">Databricks</span>
+              </div>
+            </div>
+
+            <!-- Job 2 -->
+            <div class="exp-block">
+              <div class="exp-title">Data Analyst</div>
+              <div class="exp-meta">K Navitas Sdn. Bhd. · Nov 2022 – Apr 2025</div>
+              <ul class="exp-list">
+                <li>Designed and implemented SQL/SSIS ETL workflows to support large-scale banking data migration and regulatory reporting projects.</li>
+                <li>Executed end-to-end data migration from legacy systems to new core banking platforms, ensuring data integrity, accuracy, and minimal downtime during transition.</li>
+                <li>Conducted data mapping, cleansing, and readiness assessments to ensure compliance with Bank Negara Malaysia (BNM) reporting standards.</li>
+                <li>Developed Excel VBA-based automation tools for financial performance tracking, MIS reporting, and reconciliation.</li>
+                <li>Created data dictionaries, functional specifications, and source-to-target mapping to support data governance and traceability.</li>
+              </ul>
+              <div class="tag-row">
+                <span class="tag">SQL</span>
+                <span class="tag">SSIS</span>
+                <span class="tag">SSMS</span>
+                <span class="tag">VBA</span>
+                <span class="tag">Excel</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- Education -->
+      <div class="accordion-item">
+        <button class="accordion-header">
+          🎓 Education
+          <span class="accordion-chevron">▶</span>
+        </button>
+        <div class="accordion-body">
+          <div class="accordion-body-inner">
+            <p><strong>Master of Data Science (Coursework)</strong><br>
+            University of Malaya · Mar 2025 – Present</p>
+            <p style="margin-top:6px;"><strong>Bachelor of Computer Science (Hons.)</strong><br>
+            International Islamic University Malaysia (IIUM) · Sep 2018 - Sep 2022</p>
+            <ul class="exp-list">
+              <li><strong>Specialization:</strong> Data Science and Computational Intelligence</li>
+              <li><strong>Achievement:</strong> Awarded Rector’s List for academic excellence.</li>
+              <li><strong>Final Year Project:</strong> Development of a Shariah Compliance Monitoring System for Implementation in a Shariah-Compliant Hospital Framework - achieved Gold Award recognition.</li>
+              <li><strong>CGPA:</strong> 3.84</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Professional Certifications -->
+      <div class="accordion-item">
+        <button class="accordion-header">
+          🏅 Professional Certifications
+          <span class="accordion-chevron">▶</span>
+        </button>
+        <div class="accordion-body">
+          <div class="accordion-body-inner">
+            <p style="margin-top:6px;"><strong>Junior Data Scientist - Credential ID: GDSC229035</strong><br>
+            The Center of Applied Data Science (CADS) · Jan 2023</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Technical Skills -->
+      <div class="accordion-item">
+        <button class="accordion-header">
+          💻 Technical Skills
+          <span class="accordion-chevron">▶</span>
+        </button>
+        <div class="accordion-body">
+          <div class="accordion-body-inner">
+            <p><strong>Programming & Analytics:</strong> Python (pandas, NumPy, scikit-learn, matplotlib, seaborn), R, SQL, Excel VBA, HTML, CSS, PHP</p>
+            <p><strong>Data Engineering & Databases:</strong> Microsoft SQL Server, SSMS, SSIS, Oracle, MySQL, Databricks (exposure), Google BigQuery (exposure)</p>
+            <p><strong>Data Visualization & Reporting:</strong> Tableau, Google Data Studio, Power BI</p>
+            <p><strong>Data Science & Analytics Techniques:</strong> Machine Learning, Statistical Analysis, Data Wrangling, ETL/ELT Workflows, Data Modelling, Data Governance</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Soft Skills -->
+      <div class="accordion-item">
+        <button class="accordion-header">
+          💬 Soft Skills
+          <span class="accordion-chevron">▶</span>
+        </button>
+        <div class="accordion-body">
+          <div class="accordion-body-inner">
+            <p>Analytical thinking, problem solving, attention to detail, time management, collaboration, teamwork, communication with non-technical stakeholders, stakeholder engagement, adaptability, continuous learning, initiative, leadership support</p>
+          </div>
+        </div>
+      </div>
+
+    </main>
+
+    <footer>© 2025 Wan Nurul Adibah</footer>
+  </div>
+
+  <script>
+    document.querySelectorAll(".accordion-header").forEach(btn => {
+      btn.addEventListener("click", () => {
+        const item = btn.parentElement;
+        document.querySelectorAll(".accordion-item").forEach(i => {
+          if (i !== item) i.classList.remove("active");
+        });
+        item.classList.toggle("active");
+      });
+    });
+  </script>
+</body>
+</html>
