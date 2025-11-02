@@ -167,7 +167,7 @@ Through this project, I learned to:
 
 ## 🌍 Output Preview
 
-[https://htmlpreview.github.io/?https://github.com/deebtarmizi104/AWS-EC2-Web-Server-Testing/blob/main/index.html] (https://htmlpreview.github.io/?https://github.com/deebtarmizi104/AWS-EC2-Web-Server-Testing/blob/main/index.html)
+[https://htmlpreview.github.io/?https://github.com/deebtarmizi104/AWS-EC2-Web-Server-Testing/blob/main/index.html] 
 
 ---
 
