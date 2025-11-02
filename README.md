@@ -165,17 +165,9 @@ Through this project, I learned to:
 
 ---
 
-## 🌍 Optional : Host via GitHub Pages
+## 🌍 Output Preview
 
-You can also make this repository live on GitHub Pages:
-
-1. Go to **Settings → Pages**  
-2. Choose **Source → Deploy from a branch**  
-3. Select branch `main`, folder `/root`  
-4. Save  
-
-GitHub will provide a link such as  
-`https://deebtarmizi104.github.io/AWS-EC2-Web-Server-Testing/`
+[https://htmlpreview.github.io/?https://github.com/deebtarmizi104/AWS-EC2-Web-Server-Testing/blob/main/index.html] (https://htmlpreview.github.io/?https://github.com/deebtarmizi104/AWS-EC2-Web-Server-Testing/blob/main/index.html)
 
 ---
 
